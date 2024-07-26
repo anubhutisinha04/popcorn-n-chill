@@ -5,7 +5,6 @@ const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
 
 const KEY = "e0e5f71d";
-const tempQuery = "twilight";
 
 export default function App() {
   const [movies, setMovies] = useState([]);
